@@ -51,8 +51,9 @@ const RecipeCard = ({ recipe }) => {
         .actions {
           margin-top: 20px;
           display: flex;
-          justify-content: flex-center;
+          justify-content: flex-end;
           align-items: start;
+          transform: translate(-25px, -140px)
         }
         .actions a {
           color: #fff;
