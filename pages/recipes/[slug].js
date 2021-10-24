@@ -17,7 +17,7 @@ export async function getStaticPaths() {
 
   return {
     paths: recipesPath,
-    fallback: false,
+    fallback: true,
   };
 }
 
